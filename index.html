@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahmed Solution</title>
-    <script src="https://kit.fontawesome.com/f913110033.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/f913110033.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Google Font CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- DaisyUI CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -19,7 +25,7 @@
 
     <style>
       .font-poppins {
-        font-family:  "EB Garamond", serif;
+        font-family: "EB Garamond", serif;
       }
     </style>
     <script>
@@ -27,106 +33,116 @@
         theme: {
           extend: {
             colors: {
-              clifford: '#da373d',
-              'legal-primary': '#B68C5A',
-              'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
+              clifford: "#da373d",
+              "legal-primary": "#B68C5A",
+              "bike-primary-bg": "rgba(231, 111, 81, 0.1)",
             },
           },
         },
-      }
+      };
     </script>
-
-
-</head>
- <body class="font-poppins">
-  <header class="lg:max-w-screen-xl mx-auto">
-    <!-- navbar -->
-     <section>
+  </head>
+  <body class="font-poppins">
+    <header class="lg:max-w-screen-xl mx-auto">
+      <!-- navbar -->
+      <section>
         <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Home</a>  </li>
-                  <li>
-                    <a>Services</a></li>
-                  <li><a>Cases</a></li>
-                  <li><a>Blogs</a></li>
-                  <li><a>Contact us</a></li>
-                </ul>
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
               </div>
-              <a class="btn btn-ghost text-xl"><img  src="./images/logo2.png" alt=""> </a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal text-xl px-1">
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
                 <li><a>Home</a></li>
                 <li>
-                  <details>
-                    <summary>Services</summary>
-                     
-                  </details>
+                  <a>Services</a>
                 </li>
-                <li>
-                  <details>
-                    <summary>Cases</summary>
-                     
-                  </details>
-                </li>
-                <li>
-                  <details>
-                    <summary>Blogs</summary>
-                     
-                  </details>
-                </li>
-                <li>
-                  <details>
-                    <summary>Contact Us</summary>
-                     
-                  </details>
-                </li>
-                
+                <li><a>Cases</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact us</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn bg-legal-primary text-white font-bold">Free Consultation</a>
+            <a class="btn btn-ghost text-xl"
+              ><img src="./images/logo2.png" alt="" />
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal text-xl px-1">
+              <li><a>Home</a></li>
+              <li>
+                <details>
+                  <summary>Services</summary>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Cases</summary>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Blogs</summary>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Contact Us</summary>
+                </details>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-legal-primary text-white font-bold"
+              >Free Consultation</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- hero section -->
+      <section>
+        <div
+          class="hero  "
+          style="background-image: url(./images/banner.png)"
+        >
+          <div class="hero-overlay bg-opacity-40"></div>
+          <div class="hero-content text-neutral-content text-center">
+            <div class="max-w-2xl py-24 scroll-py-4">
+              <h1 class="mb-5 text-7xl font-extrabold">We Provide Effective <br> Legal Solutions</h1>
+              <p class="mb-5 font-bold">
+                There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.
+              </p>
+              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              <button class="btn  bg-legal-primary text-xl text-white font-bold">Search</button>
             </div>
           </div>
-     </section>
-     
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- feature section -->
 
-     <!-- hero section -->
-      
+      <!-- latest news -->
 
-  </header>
-  <main>
-    <!-- feature section -->
-   
-
-    <!-- latest news -->
-    
-
-     <!-- happy client -->
-       
+      <!-- happy client -->
 
       <!-- question section -->
-       
-  </main>
-  
-  
- </body>
+    </main>
+  </body>
 </html>
